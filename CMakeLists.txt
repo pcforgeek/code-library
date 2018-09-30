@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ds_algo_cpp)
+project(code-library)
 
 set(PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
 
@@ -9,7 +9,7 @@ include_directories("${PROJECT_SOURCE_DIR}/src")
 set(CMAKE_CXX_STANDARD 11)
 
 
-add_executable(ds_algo_cpp
+add_executable(code-library
         include/algorithm_driver.h
         include/dynamic_programming_driver.h
         include/data_structure_driver.h
